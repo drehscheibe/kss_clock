@@ -1,0 +1,12 @@
+This application shows a Qt5-based, full-screen clock that can be
+closed with one of the keys Ctrl-c, Ctrl-q or escape. You need a
+Qt5 installation to build an run it.
+
+$ git clone https://github.com/drehscheibe/kss_clock.git
+$ cd kss_clock/
+$ qmake
+$ make -j$(nproc)
+$ ./kss_clock
+
+kss stands for KDE screensaver, because this clock started out as
+such. The application was called kclock.kss back then.

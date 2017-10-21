@@ -1,0 +1,4 @@
+.build/
+.qmake.stash
+Makefile
+kss_clock
